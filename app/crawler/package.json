@@ -1,0 +1,22 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/main.js",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --testTimeout=100000",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "puppeteer": "^19.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "parcel": "^2.7.0"
+  }
+}
